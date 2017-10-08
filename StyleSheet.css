@@ -1,0 +1,170 @@
+﻿body {
+}
+nav#navvy.navbar.navbar-static-top{
+    color: white;
+    background-color: darkgray;
+    height: 100px;
+    padding-top: 25px;
+    font-size: 16px;
+    margin-bottom:0px;
+    padding-bottom:0;
+}
+
+#widePics {
+    margin: 0;
+    padding: 0;
+    
+}
+#jumbotronLeft {
+    background-image: url('Images/tuscany-villas-sant-anna.jpg');
+    height:300px;
+    margin:0;
+    padding:0;
+    background-size:cover;
+    margin:0;
+    padding:0;
+   
+}
+#jumbotronRight {
+    background-image: url('Images/Versilia.jpg');
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+div.page-header{
+    margin:0;
+    padding:0;
+    background-size:cover;
+}
+.banner{
+    height:150px;
+    color:white;
+    text-align:center;
+    background-color:darkgray;
+    padding-top:0;
+}
+.locations{
+    height:100%;
+}
+
+#firstLoc {
+    /*height:300px;*/
+    /*margin-top:45px;*/
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 100%;
+}  
+#greyButton{
+    color:white;
+    background-color:darkgray;
+    border-radius:0;
+}
+#whiteButton{
+    color: darkgray;
+    background-color:white;
+    border-radius:0;
+}
+.pLeft{
+    text-align: left;
+    float:left;
+    margin-right: 450px;
+    width: 500px;
+   
+}
+#pic1{
+     /*height: 200px;
+     width: 400px;*/
+     padding-left:20px;
+     height:100%;
+     width:100%;
+
+}
+#secondLoc{
+      /*height:300px;
+      padding-top:45px;*/
+      background-color:darkgray;
+      padding-top:5%;
+      padding-bottom:5%;
+      height:100%;
+}
+.pRight{
+    text-align: left;
+    
+    /*float:left;*/
+    
+    /*width: 500px;*/
+}
+#pic2{
+     /*height: 200px;
+     width: 400px;  
+     float:left;
+     padding-right:30px;
+     padding-left:30px;
+     padding-bottom:10px;*/
+     padding-left:20px;
+     height:100%;
+     width:100%;
+}
+/*.titleRight{
+    float:right;
+}*/
+#thirdLoc{
+     /*height:300px;
+     margin-top:45px;*/
+     padding-top:5%;
+     padding-bottom:5%;
+     height:100%;
+     
+}
+.checkerboard{
+    height:100%;
+    width:100%;
+    padding-top:5%;
+    padding-left:5%;
+    /*position:relative;*/
+    
+
+}
+.checkPic {
+    /*height:100%;*/
+    /*border: 1px solid red;*/
+    /*object-fit:contain;*/
+    /*background-size:cover;
+    position:relative;*/
+    /*display: block;  
+    margin-left: auto ;
+    margin-right: auto ;*/
+    /*display:inline-block;*/
+    margin: 0;
+    padding: 0;
+    /*background-image: url('Images/3b-348x348.jpg');*/
+}
+
+.centered{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+.checkText{
+    /*p/*osition:absolute;*/*/
+    vertical-align:middle;
+    text-align:center;
+    padding-top:5%;
+    padding-bottom:10%;
+    height:100%;
+    /*width:33%;*/
+    /*border: 1px solid red;*/
+   
+
+}
+
+.carousel-inner{
+    text-align:center;
+}
+

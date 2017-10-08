@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <!--Navbar / header-->
+    <nav class="navbar navbar-static-top" id="navvy">
+        <div class="container">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse nav pull-right">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">LOCATIONS</a></li>
+                    <li><a href="#amenities">AMENITIES</a></li>
+                    <li><a href="#reviews">REVIEWS</a></li>
+                    <li><a href="#contacts">CONTACTS</a></li>
+                </ul>
+            </div><!--Nav-Collapse-->
+        </div><!--container-->
+    </nav>
+
+    <div class="row">
+        <div class="page-header">
+            <div class="container-fluid" id="mainPics">
+                <div class="col-lg-9" id="jumbotronLeft">
+                    <!--<img src="Images/tuscany-villas-sant-anna.jpg" class="img-responsive" id="widePics"/>-->
+
+                </div>
+                <div class="col-lg-3" id="jumbotronRight">
+                    <!--<img src="Images/Versilia.jpg" class="img-responsive" id="widePics"/>-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--LOCATIONS - small banner below jumbotron-->
+    <div class="row">
+        <div class="container-fluid banner">
+            <h1>LOCATIONS</h1>
+            <h3>Some places for you to go</h3>
+        </div>
+    </div>
+    <!--<div class="row">-->
+    <!--FIRST LOCATION-->
+    <div class="container-fluid locations">
+        <div class="row" id="firstLoc">
+            <div class="col-lg-8 col-sm-12">
+                <h2 class="titleLeft">Location #1</h2>
+                <p class="pLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id felis a quam lobortis rutrum. Sed nec venenatis erat. Vivamus eget mollis dolor. Curabitur metus dolor, iaculis in faucibus a, consectetur quis neque. </p>
+                <p><a href="#" class="btn" role="button" id="greyButton">Reserve now!</a></p>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <img src="Images/italy-mountain-villa.jpeg" class="img-responsive" id="pic1" />
+            </div>
+        </div>
+    </div>
+
+    <!--SECOND LOCATION-->
+    <div class="container-fluid">
+        <div class="row " id="secondLoc">
+            <div class="col-lg-4 col-sm-12">
+                <img src="Images/modern-villa.jpeg" class="img-responsive" id="pic2" />
+            </div>
+            <div class="col-lg-8 col-sm-12">
+                <h2 class="titleRight">Location #2</h2>
+                <p class="pRight">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id felis a quam lobortis rutrum. Sed nec venenatis erat.
+                    Vivamus eget mollis dolor. Curabitur metus dolor, iaculis in faucibus a, consectetur quis neque.
+                </p>
+                <p><a href="#" class="btn" role="button" id="whiteButton">Check it out!</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!--THIRD LOCATION-->
+    <div class="container-fluid" id="thirdLoc">
+        <div class="row">
+            <div class="col-lg-8 col-sm-12">
+                <h2>Location #3</h2>
+                <p class="pLeft">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id felis a quam lobortis rutrum. Sed nec venenatis erat.
+                    Vivamus eget mollis dolor. Curabitur metus dolor, iaculis in faucibus a, consectetur quis neque.
+                </p>
+                <p><a href="#" class="btn" role="button" id="greyButton">Join Us!</a></p>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <img src="Images/tuscany-grape-field-nature-51947.jpeg" class="img-responsive" id="pic1" />
+            </div>
+        </div>
+    </div>
+
+    <!--AMENITIES SECOND BANNER-->
+    <div class="row">
+        <div class="container-fluid banner">
+            <h1>AMENITIES</h1>
+            <h3>Some stuff for you to enjoy</h3>
+        </div>
+    </div>
+
+
+    <div class="container-fluid checkerboard">
+        <!--whole checkerboard-->
+        <div class="row">
+            <div class="col-lg-4  col-md-4 col-sm-12 checkPic">
+                <img src="Images/3b-348x348.jpg" class="img-responsive" />
+                <h2 class="centered">RECEPTIONS</h2>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 checkText">
+                <h2>FOR EVERY OCCASION</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat semper mattis.</p>
+                <p><a href="#" class="btn" role="button" id="greyButton">Check it out!</a></p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 checkPic">
+                <img src="Images/42-348x348.jpg" class="img-responsive" />
+                <h2 class="centered">RELAX<br />BY THE POOL</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 checkText">
+                <h2>WHAT SETS US APART</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat semper mattis.</p>
+                <p><a href="#" class="btn" role="button" id="greyButton">Check it out!</a></p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 checkPic">
+                <img src="Images/314-348x348.jpg" />
+                <h2 class="centered">FEELS LIKE<br /> HOME</h2>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 checkText">
+                <h2>TALK TO STAFF</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat semper mattis.</p>
+                <p><a href="#" class="btn" role="button" id="greyButton">Check it out!</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4  col-md-4 col-sm-12 checkPic">
+                <img src="Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg" />
+                <h2 class="centered">ENJOY THE VIEWS</h2>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 checkText">
+                <h2>BOOK YOUR VILLA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat semper mattis.</p>
+                <p><a href="#" class="btn" role="button" id="greyButton">Check it out!</a></p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 checkPic">
+                <img src="Images/Villa-Vanna-231-348x348.jpg" />
+                <h2 class="centered">PRIVATE DINING</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="container-fluid banner">
+            <h1>REVIEWS</h1>
+            <h3>What our customers say</h3>
+        </div>
+    </div>
+
+    <div id="myCarousel" class="carousel slide">
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="active item">
+                <p>I love it!</p>
+                <p>Stella, Avid Napper</p>
+            </div>
+            <div class="item">
+                <p>These are ok.</p>
+                <p>Scooter</p>
+            </div>
+            <div class="item">
+                <p>Bootstrap sucks</p>
+                <p>Me</p>
+            </div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+
+    <div class="row">
+        <div class="container-fluid banner">
+            <h1>CONTACT</h1>
+            <h3>We've got the answers</h3>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+                <p>Contact us and we'll respond in 24 hours</p>
+                <p>Cleveland, OH</p>
+                <p>555-555-1212</p>
+                <p>name@email</p>
+
+            </div>
+            <div class="col-lg-8">
+                <form>
+                    <div class="form-group">
+                        <label for="email">Name</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Email</label>
+                        <input type="password" class="form-control" id="pwd">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Comment</label>
+                        <input type="password" class="form-control" id="pwd">
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="container-fluid banner">
+                <p>Created by</p>
+                <p>Not copyright at all</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+</html>
