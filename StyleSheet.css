@@ -9,10 +9,13 @@ nav#navvy.navbar.navbar-static-top{
     margin-bottom:0px;
     padding-bottom:0;
 }
-
-#widePics {
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+#mainPics {
     margin: 0;
     padding: 0;
+    
     
 }
 #jumbotronLeft {
@@ -21,12 +24,17 @@ nav#navvy.navbar.navbar-static-top{
     margin:0;
     padding:0;
     background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
     margin:0;
     padding:0;
+    
    
 }
 #jumbotronRight {
     background-image: url('Images/Versilia.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
     height: 300px;
     margin: 0;
     padding: 0;
@@ -126,8 +134,8 @@ div.page-header{
     padding-top:5%;
     padding-left:5%;
     /*position:relative;*/
-    
-
+    padding-right:5%;
+    padding-bottom:5%;
 }
 .checkPic {
     /*height:100%;*/
@@ -141,7 +149,11 @@ div.page-header{
     /*display:inline-block;*/
     margin: 0;
     padding: 0;
-    /*background-image: url('Images/3b-348x348.jpg');*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height:352px;
+    
 }
 
 .centered{
@@ -166,5 +178,20 @@ div.page-header{
 
 .carousel-inner{
     text-align:center;
+}
+#checkPic1 {
+    background-image: url('Images/3b-348x348.jpg');
+}
+#checkPic2 {
+    background-image: url('Images/42-348x348.jpg');
+}
+#checkPic3 {
+    background-image: url('Images/314-348x348.jpg');
+}
+#checkPic4 {
+    background-image: url('Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+}
+#checkPic5 {
+    background-image: url('Images/Villa-Vanna-231-348x348.jpg');
 }
 
